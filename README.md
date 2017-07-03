@@ -1,30 +1,29 @@
 Waundr
 =====================
 
-A real time social walking experience. Take a look at our demo at www.waundr.com
+A real time social walking experience. A deployed version of the demo can be accessed at: www.waundr.com
 
 ### How it works
 
-At the landing page the user can login either by google or facebook.
+Users can log in using either Facebook or Google.
 
 !["Screenshot of the landing page"](https://github.com/promilo/Waundr/blob/master/gif/login.png)
 
-When logging in, the users can create markers and it will broadcast to others users in real time by websockets secure.
-Real time meaning that other uses does not need to refresh the page to get the latest updates.
+After logging in, users can create markers and they will broadcast to others users in real time using websockets.
 
 !["Gif for creating marker"](https://github.com/promilo/Waundr/blob/master/gif/Createmarkers.gif)
 
-Also the app fetches data from the meet up api so its already populated for first time users.
-In addition the users can also confirm the event by clicking on the number or reject the event by clicking on the clear sign
+The app fetches data from the Meetups api so it is already populated with some markers on initial use.
+In addition the users can also confirm the event by clicking on the number or reject the event by clicking on the 'X', events are time limited to 2 hours, however confirms will refresh the timer, and rejects will remove the marker prematurely.
 
 !["Gif for meetup"](https://github.com/promilo/Waundr/blob/master/gif/meetup.gif)
 
-The app also allows to filter events near you. You can do this by the filter button at the bottom right hand corner.
+The app also allows users to filter events near you. You can do this by the filter button at the bottom right hand corner.
 
 !["Gif for filter"](https://github.com/promilo/Waundr/blob/master/gif/filter.gif)
 ### Loading Waundr
 
-In order to run this you must first create a .env file.
+In order to run the app, you must first create a .env file.
 The .env file is for authentication for google and facebook and linking it with the postgres server.
 
 ```
@@ -59,9 +58,12 @@ cd production
 npm install
 npm start
 ```
-In order to get project veronica working.
+
+In order to get the mobile version working.
+
 ```
 cd veronica
+npm install
 react-native run-ios; // react-native run-andriod
 ```
 
