@@ -7,24 +7,24 @@ A real time social walking experience. A deployed version of the demo can be acc
 
 Users can log in using either Facebook or Google.
 
-!["Screenshot of the landing page"](https://github.com/promilo/Waundr/blob/master/gif/login.png)
+!["Screenshot of the landing page"](https://github.com/ffiargus/Waundr/blob/master/gif/login.png)
 
 After logging in, users can create markers and they will broadcast to others users in real time using websockets.
 
-!["Gif for creating marker"](https://github.com/promilo/Waundr/blob/master/gif/Createmarkers.gif)
+!["Gif for creating marker"](https://github.com/ffiargus/Waundr/blob/master/gif/Createmarkers.gif)
 
 The app fetches data from the Meetups api so it is already populated with some markers on initial use.
 In addition the users can also confirm the event by clicking on the number or reject the event by clicking on the 'X', events are time limited to 2 hours, however confirms will refresh the timer, and rejects will remove the marker prematurely.
 
-!["Gif for meetup"](https://github.com/promilo/Waundr/blob/master/gif/meetup.gif)
+!["Gif for meetup"](https://github.com/ffiargus/Waundr/blob/master/gif/meetup.gif)
 
 The app also allows users to filter events near you. You can do this by the filter button at the bottom right hand corner.
 
-!["Gif for filter"](https://github.com/promilo/Waundr/blob/master/gif/filter.gif)
+!["Gif for filter"](https://github.com/ffiargus/Waundr/blob/master/gif/filter.gif)
 
 Mobile Versions
 
-!["Example of iOS and Android devices"](https://github.com/promilo/Waundr/gif/MobileExample.png)
+!["Example of iOS and Android devices"](https://github.com/ffiargus/Waundr/blob/master/gif/MobileExample.png)
 
 ### Loading Waundr
 
