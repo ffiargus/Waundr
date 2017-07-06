@@ -21,6 +21,11 @@ In addition the users can also confirm the event by clicking on the number or re
 The app also allows users to filter events near you. You can do this by the filter button at the bottom right hand corner.
 
 !["Gif for filter"](https://github.com/promilo/Waundr/blob/master/gif/filter.gif)
+
+Mobile Versions
+
+!["Example of iOS and Android devices"](https://github.com/promilo/Waundr/blob/master/gif/MobileExample.png)
+
 ### Loading Waundr
 
 In order to run the app, you must first create a .env file.
