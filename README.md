@@ -24,7 +24,7 @@ The app also allows users to filter events near you. You can do this by the filt
 
 Mobile Versions
 
-!["Example of iOS and Android devices"](https://github.com/promilo/Waundr/blob/master/gif/MobileExample.png)
+!["Example of iOS and Android devices"](https://github.com/promilo/Waundr/gif/MobileExample.png)
 
 ### Loading Waundr
 
