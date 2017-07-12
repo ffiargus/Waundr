@@ -8,7 +8,7 @@ export const apiMiddleware = store => next => action => {
   switch (action.type) {
     // In case we receive an action to send an API request
     case 'GET_EVENT_DATA':
-      // Dispatch GET_MOVIE_DATA_LOADING to update loading state
+      // Dispatch GET_EVENT_DATA_LOADING to update loading state
       store.dispatch({type: 'GET_EVENT_DATA_LOADING'});
       // Make API call and dispatch appropriate actions when done
       fetch(API)
@@ -39,7 +39,7 @@ export const reducer = (state = { events: [], loading: true }, action) => {
       console.log('action data here',action.data.events)
       return {
         loading: false,             // set loading to false
-        events: action.data.events, // update movies array with reponse data
+        events: action.data.events, // update events array with reponse data
       };
     case 'GET_EVENT_DATA_ERROR':
       return state;
