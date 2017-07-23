@@ -5,7 +5,7 @@ A real time social walking experience. A deployed version of the demo can be acc
 
 ### How it works
 
-Users can log in using either Facebook or Google.
+Users can log in using either Facebook or Google. (Currently only Facebook authentication works in deployed version)
 
 !["Screenshot of the landing page"](https://github.com/ffiargus/Waundr/blob/master/gif/login.png)
 
@@ -26,7 +26,7 @@ Mobile Versions
 
 !["Example of iOS and Android devices"](https://github.com/ffiargus/Waundr/blob/master/gif/MobileExample.png)
 
-### Loading Waundr
+### Loading Waundr on Localhost
 
 In order to run the app, you must first create a .env file.
 The .env file is for authentication for google and facebook and linking it with the postgres server.
